@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body{
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to our Hotel</h2>
+    <form action="/codes13.html" method="post">
+        <label for="firstname">Enter Your Name</label><br>
+        <input id="firstname" type="text" placeholder="First Name">
+        <input id="lastname" type="text" placeholder="Last Name">
+
+        <br><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="" id="email" placeholder="myemail@gmail.com">
+
+        <br><br>
+        <label for="room-type">Room Type</label><br>
+        <select name="" id="room-type">
+            <option value="simple">Simple</option>
+            <option value="double">Double</option>
+            <option value="xl">Extra Large (XL)</option>
+        </select>
+        <br><br>
+        <label for="numGuests">Number of Guests</label><br>
+        <input type="number" name="" id="numGuests" min="1" max="5" placeholder="2">
+
+        <br><br>
+        <label for="arrival-time">Arrival Date & Time</label><br>
+        <input type="datetime-local" name="" id="arrival-time"><br><br>
+        <label for="departure-time">Departure Date & Time</label><br>
+        <input type="datetime-local" name="" id="departure-time">
+
+        <br><br>
+        <label for="">Select City:</label>
+        <select name="city" id="">
+            <option value="">--Select City--</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Guwahati">Guwahati</option>
+            <option value="Amritsar">Amritsar</option>
+        </select>
+        <br><br>
+        <label for="">Additional Requests:</label><br>
+        <textarea name="" id="" placeholder="Special Requests"></textarea>
+
+        <br><br>
+        <input type="checkbox"><label for="">Agree to the terms and conditions</label><br>
+        <input type="reset" value="Reset"><input type="submit" value="Submit">
+    </form>
+</body>
+</html>
