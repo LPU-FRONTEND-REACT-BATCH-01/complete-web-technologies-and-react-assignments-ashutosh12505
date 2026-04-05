@@ -1,0 +1,15 @@
+#list-heading{
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}
+.list-item{
+    color: white;
+    background-color: coral;
+}
+.third-item{
+    background-color: cornflowerblue;
+}
+#list-heading, .list-item, h3{
+    margin: 20px;
+    padding: 20px;
+}

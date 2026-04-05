@@ -1,0 +1,10 @@
+.fruits li{
+    /* applies to all the <li> elements inside fruits class, even of they are present inside any other element */
+    background-color: cadetblue;
+    color: whitesmoke;
+}
+.colors>li{
+    /*applies only to the direct <li> elements inside the colors class, and also to the elements inside direct li elements */
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}

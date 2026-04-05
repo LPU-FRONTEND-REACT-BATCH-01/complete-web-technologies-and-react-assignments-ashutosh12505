@@ -1,0 +1,33 @@
+p::first-letter{
+    font-size: 30px;
+    color: chocolate;
+}
+p::first-line{
+    background-color: antiquewhite;
+}
+
+.bikes h2:first-child{
+    background-color: aquamarine;
+}
+.bikes li:last-child{
+    background-color: antiquewhite;
+}
+/* nth child - type should match of that target child, count starts from beginning*/
+.bikes li:nth-child(3){
+    background-color: thistle;
+}
+
+/* targeting based on type - first and last*/
+.bikes h2:last-of-type{
+    background-color: tan;
+}
+
+/*targeting based on type - nth*/
+.bikes li:nth-of-type(5){
+    background-color: silver;
+}
+
+/*third last car*/
+.bikes li:nth-last-of-type(3){
+    background-color: rosybrown;
+}
