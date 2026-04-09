@@ -1,0 +1,29 @@
+.card{
+    margin: auto;
+    height: 300px;
+    width: 450px;
+    text-align: center;
+    border-radius: 10px;
+}
+.quote{
+    font-family: "BJ Cree", sans-serif;
+    padding: 20px;
+    font-size: 35px;
+}
+.name{
+    text-decoration: underline solid;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(114, 114, 114);
+    font-style: italic;
+}
+.card:hover{
+    box-shadow: 5px 5px 15px rgb(185, 185, 185);
+    letter-spacing: 1px;
+}
+.quote::first-letter{
+    color: rgb(123, 25, 123);
+    font-size: 70px;
+    font-weight: 500;
+}

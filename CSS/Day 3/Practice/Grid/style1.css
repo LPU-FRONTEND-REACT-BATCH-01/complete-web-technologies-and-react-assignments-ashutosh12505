@@ -1,0 +1,33 @@
+body{
+    margin-bottom: 1000px;
+}
+.container{
+    width: 500px;
+    height: 700px;
+    background-color: rgb(255, 186, 82);
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border: 5px solid rgb(88, 88, 88);
+    text-align: center;
+    color: white;
+}
+.item1{
+    position: relative;/*object moves right but keeps it origin. no other item comes in area occupied by item1*/
+    left: 150px;
+
+}
+.item2{
+    position: relative;
+}
+.item3{
+    position: sticky;
+    top: 10px;
+}
+.item4{
+    position: fixed;
+    top: 10px;
+    left: 300px;
+}

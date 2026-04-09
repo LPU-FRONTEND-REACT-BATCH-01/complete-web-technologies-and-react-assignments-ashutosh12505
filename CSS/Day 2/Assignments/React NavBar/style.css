@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(27, 36, 43);
+    padding-top: 5px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search-bar{
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: 1px solid black; */
+    border-radius: 75px;
+    display: flex;
+    width: 500px;
+    height: 45px;
+    justify-content: space-between;
+    background-color: rgb(64, 81, 93);
+}
+.search-bar:hover{
+    cursor: pointer;
+}
+.search-logo-and-text{
+    align-items: center;
+}
+.control-command{
+    background-color: rgb(43, 45, 45);
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 5px;
+    height: 20px;
+    color: rgb(173, 173, 173);
+    font-family:Consolas, 'Times New Roman', Times, serif;
+}
+.search-text{
+    margin-left: 10px;
+    color: rgb(173, 173, 173);
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+}
+.version{
+    color: rgb(173, 173, 173);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.version:hover{
+    cursor: pointer;
+    color: rgb(72, 126, 128);
+    text-decoration: solid underline;
+}
+.each-nav-link{
+    text-decoration: none;
+    color: white;
+    /* background-color: rgb(219, 139, 58); */
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: 400;
+    height: 25px;
+    padding: 10px;
+    vertical-align: middle;
+}
+.each-nav-link:hover{
+    background-color: rgb(18, 112, 141);
+}
+.last-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.page-body{
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.main-page-logo{
+    height: 130px;
+    width: 130px;
+}
+.page-body{
+    color: white;
+}
+.learn-react-button{
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    /* border:1px solid white; */
+    border-radius:20px;
+    padding:10px;
+    background-color: rgb(42, 162, 195);
+}
+.api-ref-button{
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    border:1px solid white;
+    border-radius:20px;
+    padding:10px;
+}
+.page-body h3{
+    margin: 0;
+    padding: 0;
+    font-weight: 200px;
+    font-size: 45px;
+}
+.body-text{
+    font-size: 30px;
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: 600;
+}
+.bottom-buttons{
+    /* padding-left: 34%; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* width: 400px; */
+    font-size: 15px;
+    text-align: center;
+}
+.bottom-buttons h4{
+    width: 170px;
+    height: 20px;
+}
+.react-logo-top, .bottom-buttons:hover{
+    cursor: pointer;
+}
+.sun-logo{
+    margin-right: 20px;
+}
+.sun-logo:hover{
+    cursor: pointer;
+}
+.translate-logo{
+    margin-right: 20px;
+}
+.translate-logo:hover{
+    cursor: pointer;
+}
+.github-logo:hover{
+    cursor: pointer;
+}

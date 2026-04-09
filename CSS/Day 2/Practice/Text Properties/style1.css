@@ -1,0 +1,22 @@
+body{
+    padding: 15px;
+}
+#first-heading{
+    text-align: center;
+    text-decoration: underline red dashed;
+    font-size: 25px;
+}
+p{
+    text-align: justify;
+}
+#second-para{
+    letter-spacing: 2px;
+    line-height: 10px;
+}
+#second-heading{
+    text-shadow: 5px 10px 4px rgb(93, 93, 93);
+}
+.first-para{
+    font-family: "Exo 2", sans-serif;
+    line-height: 20px;
+}

@@ -1,0 +1,19 @@
+body{
+    padding: 20px;
+}
+
+.first-div, .second-div{
+    width: 200px;
+    color: white;
+    background-color:coral;
+    border: solid 10px rgb(100, 100, 100);
+    padding: 20px;
+}
+.first-div{
+    box-sizing: content-box;
+    /* overall width is 260px */
+}
+.second-div{
+    box-sizing: border-box;
+    /* overall width is still 200px */
+}
