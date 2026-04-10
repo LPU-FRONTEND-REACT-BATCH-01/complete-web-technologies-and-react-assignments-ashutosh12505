@@ -21,10 +21,22 @@ console.log(arr3)
 // filter returns a new array without modifying the original array
 
 // arr2 = [1, 4, 2, 7, 3, 5, 9]
-let temp1 = arr2.filter((element)=> element>5);
+let temp1 = arr2.filter((element) => element>5);
 console.log(temp1)
 
 // arr1 = arr
 // now any change to arr1 will also modify arr
 // to properly copy
 // newArray = [...oldArray]
+
+// some() - to check if any element is present in the array or not
+// returns true/false
+
+let arr4 =['apple', 'mango', 'banana', 'kiwi']
+let applePresent = arr4.some(each => each === 'apple')
+let tomatoPresent = arr4.some(each => each === 'tomato')
+
+console.log(applePresent)
+console.log(tomatoPresent)
+
+// arr.find() returns the matched elements. if no elements match, it returns undefined
