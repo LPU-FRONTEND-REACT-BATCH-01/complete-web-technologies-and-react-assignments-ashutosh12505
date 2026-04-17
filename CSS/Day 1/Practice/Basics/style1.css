@@ -1,0 +1,15 @@
+#main-heading{
+    background-color: steelblue;
+}
+body{
+    padding: 20px;
+}
+h3{
+    background-color: coral;
+    color: whitesmoke;
+    height: 40px;
+    text-align: center;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

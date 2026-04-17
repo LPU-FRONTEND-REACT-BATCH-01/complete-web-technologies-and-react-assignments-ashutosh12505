@@ -1,0 +1,27 @@
+body{
+    padding: 20px;
+}
+a:link{
+    color: white;
+    background-color:cornflowerblue;
+}
+a:visited{
+    color: white;
+    background-color: cadetblue;
+}
+a:active{
+    color: rgb(255, 246, 217);
+    background-color: rgb(36, 36, 36);
+}
+
+h1:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: cadetblue;
+}
+h1:hover::before{
+    content: "This is ";
+}
+h1:hover::after{
+    content: " of the page";
+}

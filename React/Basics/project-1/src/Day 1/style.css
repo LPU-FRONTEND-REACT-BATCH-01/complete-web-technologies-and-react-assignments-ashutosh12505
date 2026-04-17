@@ -1,0 +1,20 @@
+/* h3{
+    color: rgb(126, 45, 30);
+    background-color: rgb(127, 162, 226);
+} */
+body{
+    text-align: center;
+    padding: 30px;
+}
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    background-color: grey;
+    height: 200px;
+    width: 300px;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}

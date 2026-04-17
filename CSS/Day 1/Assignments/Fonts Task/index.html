@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts Task</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2 class="headers">About</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, tenetur deleniti odio quisquam accusamus labore dolor! Odit saepe labore accusamus nemo, quas, dolores soluta facilis repudiandae dicta dolorem eum nesciunt perferendis. Molestiae illum odio doloremque assumenda omnis officia sint distinctio facere exercitationem deleniti esse rem, corporis commodi nesciunt minima. Tenetur sit magni sequi id saepe provident quidem inventore laboriosam, voluptate sunt omnis quaerat minima labore, rerum aspernatur voluptatibus et iste blanditiis consequatur dolores. Impedit, in quae sit ex totam ratione laborum laboriosam aspernatur pariatur suscipit quas, voluptates maiores, doloremque earum eveniet cupiditate temporibus blanditiis tempora modi! Explicabo laboriosam beatae culpa!</p>
+
+    <h2 class="headers">Our Locations</h2>
+    <ul>
+        <li>USA
+            <ul>
+                <li class="location">New York</li>
+                <li class="location">California</li>
+                <li class="location">Chicago</li>
+                <li class="location">Texas</li>
+            </ul>
+        </li>
+        <li>World
+            <ul>
+                <li class="location">Moscow</li>
+                <li class="location">Mumbai</li>
+                <li class="location">Dubai</li>
+                <li class="location">Sydney</li>
+                <li class="location">San Francisco</li>
+            </ul>
+        </li>
+    </ul>
+    <h2 class="headers">Upcoming Classes</h2>
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Location</th>
+                <th>Topics</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="location">New York</td>
+                <td>JavaScript & jQuery</td>
+            </tr>
+            <tr>
+                <td class="location">San Francisco</td>
+                <td>HTML & CSS</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 class="headers">Sign Up!</h2>
+    <form action="">
+        <label for="username" class="input-tag">Name:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your name"><br>
+
+        <label for="email" class="input-tag">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
+        <label for="location" class="input-tag">Location:</label>
+        <select name="location" id="location">
+            <option value="san-francisco">San Francisco</option>
+            <option value="new-york">New York</option>
+            <option value="dubai">Dubai</option>
+            <option value="mumbai" selected>Mumbai</option>
+            <option value="moscow">Moscow</option>
+            <option value="sydney">Sydney</option>
+        </select>
+        <br>
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender">
+            <label for="gender">Female</label>
+            <input type="radio" name="gender">
+        </fieldset>
+        <br>
+        <label for="experience" class="input-tag">Experience:</label><br>
+        <textarea name="experience" id="experience" placeholder="Enter your experience"></textarea>
+        <br><br>
+        <input type="reset" class="bottom-buttons" value="Reset Details">
+        <input type="submit" class="bottom-buttons" value="Sign Up">
+    </form>
+</body>
+</html>

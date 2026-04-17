@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body style="padding: 10px;">
+    <form action="" method="post">
+        <label for="username-id">Username:</label>
+        <input autocomplete="on" name="username" id="username-id" type="text" minlength="3" maxlength="12">
+        
+        <br>
+        <label for="password-id">Password:</label>
+        <input name="password" id="password-id" required type="password" minlength="8" maxlength="15">
+        
+        <br><br>
+        <label for="">Gender:</label>
+        <label  for="">Male</label><input value="male" name="gender" type="radio" name="" id="">
+        <label  for="">Femle</label><input value="female" name="gender" type="radio" name="" id="">
+        <label  for="">Other</label><input value="other" name="gender" type="radio" name="" id="">
+        
+        <br><br>
+        <label for="email-id">Email:</label>
+        <input type="email" name="email" id="email-id">
+        
+        <br><br>
+        <label for="">Skills:</label>
+        <input checked type="checkbox" name="html-skill" id="">HTML
+        <input type="checkbox" name="css-skill" id="">CSS
+        <input type="checkbox" name="js-skill" id="">JavaScript
+        <input type="checkbox" name="react-skill" id="">React
+
+        <br><br>
+        <label for="">Choose the date:</label>
+        <input type="date" min="2026-04-01" max="2026-04-10">
+
+        <br>
+        <label for="">Choose the date and time:</label>
+        <input type="datetime">
+
+        <br>
+        <label for="">Choose the date and time:</label>
+        <input type="datetime-local">
+
+        <br><br>
+        <label for="">Enter your age:</label>
+        <input type="range" name="" id="" min="10" max="100" step="10">
+
+        <br><br>
+        <select name="city" id="">
+            <optgroup label="Punjab">
+                <option value="amritsar">Amritsar</option>
+                <option value="jalandhar" selected>Jalandhar</option>
+                <option value="ludhiana">Ludhiana</option>
+                <option value="patiala">Patiala</option>
+            </optgroup>
+            <optgroup label="Bihar">
+                <option value="patna">Patna</option>
+                <option value="muzaffarpur">Muzaffarpur</option>
+                <option value="gaya">Gaya</option>
+                <option value="purnia">Purnia</option>
+            </optgroup>
+        </select>
+
+        <br><br>
+        <label for="">Read-only (goes to the server):</label><input type="text" readonly placeholder="placeholder">
+        <br>
+        <label for="">Disabled (doesn't go to the server):</label><input type="text" disabled placeholder="placeholder">
+        <br><br>
+        <label for="file-input">Upload the file:</label>
+        <input type="file" name="" id="file-input">
+
+        <br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

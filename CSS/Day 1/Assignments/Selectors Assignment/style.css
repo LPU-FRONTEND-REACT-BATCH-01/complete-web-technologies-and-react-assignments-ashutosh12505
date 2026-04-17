@@ -1,0 +1,18 @@
+.biryani>li{
+    color: rgb(229, 170, 59);
+}
+
+.chicken+li{
+    color: cadetblue;
+}
+
+li~h1{
+    color: rgb(144, 144, 144);
+}
+
+.lassi>li{
+    color: green;
+}
+.lassi>li+div{
+    color: darkred;
+}
